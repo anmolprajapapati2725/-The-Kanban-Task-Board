@@ -1,0 +1,92 @@
+[2m11:19:53 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/BoardHeader.jsx" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/Anmol/Documents/New folder/OneDrive/Desktop/prodesk 5/src/App.jsx[39m:2:28
+[33m  17 |  var _s = $RefreshSig$();
+  18 |  import { useMemo, useState } from "react";
+  19 |  import { BoardHeader } from "./components/BoardHeader.jsx";
+     |                               ^
+  20 |  import { KanbanColumn } from "./components/KanbanColumn.jsx";
+  21 |  import { COLUMNS, DEFAULT_PRIORITY, createTask } from "./constants/kanban.js";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:42658:41)
+      at TransformPluginContext.error (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:42655:16)
+      at normalizeUrl (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:40634:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:40753:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:40680:7)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18)
+      at async loadAndTransform (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27)
+      at async viteTransformMiddleware (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24)
+[2m11:19:54 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./components/BoardHeader.jsx" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/Anmol/Documents/New folder/OneDrive/Desktop/prodesk 5/src/App.jsx[39m:2:28
+[33m  17 |  var _s = $RefreshSig$();
+  18 |  import { useMemo, useState } from "react";
+  19 |  import { BoardHeader } from "./components/BoardHeader.jsx";
+     |                               ^
+  20 |  import { KanbanColumn } from "./components/KanbanColumn.jsx";
+  21 |  import { COLUMNS, DEFAULT_PRIORITY, createTask } from "./constants/kanban.js";[39m
+[2m11:19:54 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/BoardHeader.jsx" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/Anmol/Documents/New folder/OneDrive/Desktop/prodesk 5/src/App.jsx[39m:2:28
+[33m  17 |  var _s = $RefreshSig$();
+  18 |  import { useMemo, useState } from "react";
+  19 |  import { BoardHeader } from "./components/BoardHeader.jsx";
+     |                               ^
+  20 |  import { KanbanColumn } from "./components/KanbanColumn.jsx";
+  21 |  import { COLUMNS, DEFAULT_PRIORITY, createTask } from "./constants/kanban.js";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:42658:41)
+      at TransformPluginContext.error (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:42655:16)
+      at normalizeUrl (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:40634:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:40753:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:40680:7)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18)
+      at async loadAndTransform (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27)
+      at async viteTransformMiddleware (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24)
+[2m11:19:54 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./components/KanbanColumn.jsx" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/Anmol/Documents/New folder/OneDrive/Desktop/prodesk 5/src/App.jsx[39m:3:29
+[33m  18 |  import { useMemo, useState } from "react";
+  19 |  import { BoardHeader } from "./components/BoardHeader.jsx";
+  20 |  import { KanbanColumn } from "./components/KanbanColumn.jsx";
+     |                                ^
+  21 |  import { COLUMNS, DEFAULT_PRIORITY, createTask } from "./constants/kanban.js";
+  22 |  import { usePersistentBoard } from "./hooks/usePersistentBoard.js";[39m
+[2m11:19:54 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./TaskForm.jsx" from "src/components/BoardHeader.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/Anmol/Documents/New folder/OneDrive/Desktop/prodesk 5/src/components/BoardHeader.jsx[39m:1:25
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { TaskForm } from "./TaskForm.jsx";
+     |                            ^
+  18 |  export function BoardHeader({
+  19 |    stats,[39m
+[2m11:19:55 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./TaskCard.jsx" from "src/components/KanbanColumn.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/Anmol/Documents/New folder/OneDrive/Desktop/prodesk 5/src/components/KanbanColumn.jsx[39m:1:25
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { TaskCard } from "./TaskCard.jsx";
+     |                            ^
+  18 |  export function KanbanColumn({
+  19 |    column,[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:42658:41)
+      at TransformPluginContext.error (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:42655:16)
+      at normalizeUrl (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:40634:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:40753:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:40680:7)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18)
+      at async loadAndTransform (file:///C:/Users/Anmol/Documents/New%20folder/OneDrive/Desktop/prodesk%205/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27)
+[2m11:19:55 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./TaskCard.jsx" from "src/components/KanbanColumn.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/Anmol/Documents/New folder/OneDrive/Desktop/prodesk 5/src/components/KanbanColumn.jsx[39m:1:25
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { TaskCard } from "./TaskCard.jsx";
+     |                            ^
+  18 |  export function KanbanColumn({
+  19 |    column,[39m

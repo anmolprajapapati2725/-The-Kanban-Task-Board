@@ -1,38 +1,25 @@
-Inline Task Editing
+# Sprint 5 Kanban Task Board
 
-Users can edit task titles directly from the task card without creating a new task. Clicking the edit option converts the task text into an input field, allowing seamless updates.
+A Vite + React Kanban board for the Sprint 5 deliverable.
 
-Priority Management
+## Features
 
-Each task can be assigned one of three priority levels during creation:
+- Three workflow columns: To Do, In Progress, and Done
+- Add tasks with High, Medium, or Low priority
+- Move tasks between columns
+- Delete tasks from any column
+- Inline edit task titles
+- Persist board state in `localStorage`
 
-High Priority – Red Border
-Medium Priority – Yellow Border
-Low Priority – Green Border
+## Run Locally
 
-Priority-based styling helps users quickly identify important tasks and organize their workflow efficiently.
+```bash
+npm install
+npm run dev
+```
 
-Local Storage Persistence
+## Build
 
-The application automatically stores all task data in the browser's Local Storage.
-
-Features include:
-
-Automatic saving of tasks
-Persistence across page refreshes
-Restoration of task state on application startup
-No backend or database required
-Enhanced User Experience
-Cleaner and more responsive UI
-Improved task organization
-Faster workflow management
-Better visual feedback through priority indicators
-Technical Implementation
-
-Phase 2 utilizes:
-
-React useState for state management
-React useEffect for Local Storage synchronization
-Conditional rendering for edit mode
-Dynamic CSS classes for priority styling
-Browser Local Storage API for data persistence
+```bash
+npm run build
+```
